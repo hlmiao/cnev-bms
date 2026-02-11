@@ -1,0 +1,162 @@
+{
+  "projectId": "project1-2",
+  "projectName": "项目1-2#站",
+  "summary": {
+    "totalVoltage": 775.4,
+    "totalCurrent": -125.6,
+    "avgSoc": 85.2,
+    "avgSoh": 89,
+    "power": 97.4,
+    "chargeEnergy": 2365,
+    "dischargeEnergy": 182,
+    "chargeEnergyAdd": 1304294,
+    "dischargeEnergyAdd": 1247779,
+    "lastUpdateTime": "2024-10-01 00:03:08"
+  },
+  "extremes": {
+    "maxVoltage": 3.249,
+    "maxVoltagePos": "V23",
+    "minVoltage": 3.145,
+    "minVoltagePos": "V98",
+    "voltageDiff": 0.104,
+    "maxTemp": 26,
+    "maxTempPos": "T27",
+    "minTemp": 21,
+    "minTempPos": "T5",
+    "tempDiff": 5
+  },
+  "banks": [
+    {
+      "bankId": "Bank01",
+      "bankVol": 775.4,
+      "bankCur": -125.6,
+      "bankSoc": 85.2,
+      "bankSoh": 89,
+      "status": "normal",
+      "sglMaxVol": 3.247,
+      "sglMinVol": 3.212,
+      "sglMaxTemp": 26,
+      "sglMinTemp": 23
+    },
+    {
+      "bankId": "Bank02",
+      "bankVol": 776.1,
+      "bankCur": -124.8,
+      "bankSoc": 86.1,
+      "bankSoh": 90,
+      "status": "normal",
+      "sglMaxVol": 3.251,
+      "sglMinVol": 3.218,
+      "sglMaxTemp": 25,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank03",
+      "bankVol": 774.8,
+      "bankCur": -126.2,
+      "bankSoc": 84.5,
+      "bankSoh": 88,
+      "status": "warning",
+      "sglMaxVol": 3.52,
+      "sglMinVol": 3.205,
+      "sglMaxTemp": 27,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank04",
+      "bankVol": 775.2,
+      "bankCur": -125.4,
+      "bankSoc": 85.0,
+      "bankSoh": 89,
+      "status": "normal",
+      "sglMaxVol": 3.245,
+      "sglMinVol": 3.210,
+      "sglMaxTemp": 25,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank05",
+      "bankVol": 774.5,
+      "bankCur": -126.0,
+      "bankSoc": 84.2,
+      "bankSoh": 88,
+      "status": "warning",
+      "sglMaxVol": 3.248,
+      "sglMinVol": 3.128,
+      "sglMaxTemp": 26,
+      "sglMinTemp": 21
+    },
+    {
+      "bankId": "Bank06",
+      "bankVol": 775.8,
+      "bankCur": -125.2,
+      "bankSoc": 85.5,
+      "bankSoh": 90,
+      "status": "normal",
+      "sglMaxVol": 3.246,
+      "sglMinVol": 3.215,
+      "sglMaxTemp": 25,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank07",
+      "bankVol": 773.9,
+      "bankCur": -126.5,
+      "bankSoc": 83.8,
+      "bankSoh": 87,
+      "status": "warning",
+      "sglMaxVol": 3.244,
+      "sglMinVol": 3.198,
+      "sglMaxTemp": 28,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank08",
+      "bankVol": 776.2,
+      "bankCur": -124.6,
+      "bankSoc": 86.2,
+      "bankSoh": 90,
+      "status": "normal",
+      "sglMaxVol": 3.250,
+      "sglMinVol": 3.220,
+      "sglMaxTemp": 24,
+      "sglMinTemp": 21
+    },
+    {
+      "bankId": "Bank09",
+      "bankVol": 775.0,
+      "bankCur": -125.8,
+      "bankSoc": 84.8,
+      "bankSoh": 89,
+      "status": "normal",
+      "sglMaxVol": 3.247,
+      "sglMinVol": 3.212,
+      "sglMaxTemp": 25,
+      "sglMinTemp": 22
+    },
+    {
+      "bankId": "Bank10",
+      "bankVol": 775.6,
+      "bankCur": -125.0,
+      "bankSoc": 85.4,
+      "bankSoh": 89,
+      "status": "normal",
+      "sglMaxVol": 3.249,
+      "sglMinVol": 3.216,
+      "sglMaxTemp": 25,
+      "sglMinTemp": 21
+    },
+    {
+      "bankId": "Bank11",
+      "bankVol": 774.2,
+      "bankCur": -126.3,
+      "bankSoc": 84.0,
+      "bankSoh": 88,
+      "status": "normal",
+      "sglMaxVol": 3.243,
+      "sglMinVol": 3.208,
+      "sglMaxTemp": 26,
+      "sglMinTemp": 22
+    }
+  ]
+}

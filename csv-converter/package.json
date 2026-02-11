@@ -1,0 +1,45 @@
+{
+  "name": "csv-data-converter",
+  "version": "1.0.0",
+  "description": "CSV数据转换器 - 将项目1和项目2的CSV数据转换为标准JSON格式",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "convert": "node dist/cli.js",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "csv",
+    "converter",
+    "battery",
+    "data-processing",
+    "typescript"
+  ],
+  "author": "Battery Platform Team",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "commander": "^11.1.0",
+    "fast-check": "^3.23.2",
+    "papaparse": "^5.5.3",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.27",
+    "@types/papaparse": "^5.5.2",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}

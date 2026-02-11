@@ -1,0 +1,2 @@
+export { ErrorHandlerImpl } from './ErrorHandlerImpl.js';
+export { ErrorHandler, ErrorHandlingStrategy, ErrorHandlingResult, ErrorContext, ErrorCategory, ErrorSeverity } from '../interfaces/ErrorHandler.js';

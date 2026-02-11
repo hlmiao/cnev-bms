@@ -1,0 +1,122 @@
+{
+  "projects": [
+    {
+      "id": "project1-2",
+      "name": "德国-慕尼黑储能站",
+      "type": "project1",
+      "location": "德国·慕尼黑",
+      "country": "Germany",
+      "region": "Europe",
+      "coordinates": { "lat": 48.1351, "lng": 11.5820 },
+      "commissionDate": "2023-06-15",
+      "ratedCapacity": 50,
+      "ratedPower": 25,
+      "stackCount": 1,
+      "bankCount": 11,
+      "status": "normal"
+    },
+    {
+      "id": "project1-14",
+      "name": "法国-巴黎储能站",
+      "type": "project1",
+      "location": "法国·巴黎",
+      "country": "France",
+      "region": "Europe",
+      "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+      "commissionDate": "2023-08-20",
+      "ratedCapacity": 60,
+      "ratedPower": 30,
+      "stackCount": 1,
+      "bankCount": 11,
+      "status": "normal"
+    },
+    {
+      "id": "project1-15",
+      "name": "西班牙-马德里储能站",
+      "type": "project1",
+      "location": "西班牙·马德里",
+      "country": "Spain",
+      "region": "Europe",
+      "coordinates": { "lat": 40.4168, "lng": -3.7038 },
+      "commissionDate": "2023-10-01",
+      "ratedCapacity": 45,
+      "ratedPower": 22,
+      "stackCount": 1,
+      "bankCount": 11,
+      "status": "warning"
+    },
+    {
+      "id": "project2",
+      "name": "意大利-罗马储能站",
+      "type": "project2",
+      "location": "意大利·罗马",
+      "country": "Italy",
+      "region": "Europe",
+      "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+      "commissionDate": "2024-01-10",
+      "ratedCapacity": 40,
+      "ratedPower": 20,
+      "stackCount": 1,
+      "bankCount": 4,
+      "status": "normal"
+    },
+    {
+      "id": "project3",
+      "name": "英国-伦敦储能站",
+      "type": "project1",
+      "location": "英国·伦敦",
+      "country": "UK",
+      "region": "Europe",
+      "coordinates": { "lat": 51.5074, "lng": -0.1278 },
+      "commissionDate": "2024-03-15",
+      "ratedCapacity": 80,
+      "ratedPower": 40,
+      "stackCount": 2,
+      "bankCount": 16,
+      "status": "normal"
+    },
+    {
+      "id": "project4",
+      "name": "荷兰-阿姆斯特丹储能站",
+      "type": "project2",
+      "location": "荷兰·阿姆斯特丹",
+      "country": "Netherlands",
+      "region": "Europe",
+      "coordinates": { "lat": 52.3676, "lng": 4.9041 },
+      "commissionDate": "2024-05-20",
+      "ratedCapacity": 55,
+      "ratedPower": 28,
+      "stackCount": 1,
+      "bankCount": 8,
+      "status": "normal"
+    }
+  ],
+  "regions": [
+    {
+      "id": "europe",
+      "name": "欧洲",
+      "projectCount": 6,
+      "totalCapacity": 330,
+      "totalPower": 165,
+      "avgSoc": 85.2,
+      "avgSoh": 92.5,
+      "activeAlerts": 8
+    }
+  ],
+  "summary": {
+    "totalProjects": 6,
+    "totalStacks": 7,
+    "totalBanks": 61,
+    "totalCells": 14184,
+    "totalCapacity": 330,
+    "totalPower": 125.6,
+    "avgSoc": 85.2,
+    "avgSoh": 92.5,
+    "todayChargeEnergy": 4580,
+    "todayDischargeEnergy": 3650,
+    "activeAlerts": 8,
+    "regions": {
+      "Europe": { "projects": 6, "capacity": 330, "status": "normal" }
+    }
+  }
+}

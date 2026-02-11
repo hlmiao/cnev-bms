@@ -1,0 +1,1 @@
+export { BankDetail } from './BankDetail';

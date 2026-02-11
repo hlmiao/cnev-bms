@@ -1,0 +1,148 @@
+{
+  "alerts": [
+    {
+      "id": "alert-001",
+      "type": "voltage",
+      "level": "critical",
+      "title": "电压异常",
+      "description": "V86电压3.52V超过阈值3.5V",
+      "location": {
+        "projectId": "project1-2",
+        "projectName": "德国-慕尼黑储能站",
+        "bankId": "Bank03",
+        "cellId": 86
+      },
+      "currentValue": 3.52,
+      "threshold": 3.5,
+      "timestamp": "2024-10-01 10:23:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-002",
+      "type": "voltage",
+      "level": "critical",
+      "title": "电压异常",
+      "description": "V102电压3.48V接近阈值",
+      "location": {
+        "projectId": "project1-2",
+        "projectName": "德国-慕尼黑储能站",
+        "bankId": "Bank03",
+        "cellId": 102
+      },
+      "currentValue": 3.48,
+      "threshold": 3.5,
+      "timestamp": "2024-10-01 10:23:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-003",
+      "type": "temperature",
+      "level": "critical",
+      "title": "温度过高",
+      "description": "T45温度38°C超过阈值35°C",
+      "location": {
+        "projectId": "project2",
+        "projectName": "意大利-罗马储能站",
+        "bankId": "Group2",
+        "cellId": 45
+      },
+      "currentValue": 38,
+      "threshold": 35,
+      "timestamp": "2024-10-01 09:45:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-004",
+      "type": "soc",
+      "level": "warning",
+      "title": "SOC不均衡",
+      "description": "Bank内SOC差值8.2%",
+      "location": {
+        "projectId": "project1-2",
+        "projectName": "德国-慕尼黑储能站",
+        "bankId": "Bank07"
+      },
+      "currentValue": 8.2,
+      "threshold": 5,
+      "timestamp": "2024-10-01 08:30:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-005",
+      "type": "temperature",
+      "level": "warning",
+      "title": "温度偏高",
+      "description": "区域温度偏高32°C",
+      "location": {
+        "projectId": "project2",
+        "projectName": "意大利-罗马储能站",
+        "bankId": "Group1"
+      },
+      "currentValue": 32,
+      "threshold": 30,
+      "timestamp": "2024-10-01 08:15:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-006",
+      "type": "voltage",
+      "level": "warning",
+      "title": "电压差过大",
+      "description": "单体电压差0.12V",
+      "location": {
+        "projectId": "project1-2",
+        "projectName": "德国-慕尼黑储能站",
+        "bankId": "Bank05"
+      },
+      "currentValue": 0.12,
+      "threshold": 0.1,
+      "timestamp": "2024-10-01 07:50:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-007",
+      "type": "soc",
+      "level": "info",
+      "title": "SOC偏低",
+      "description": "Bank SOC降至72%",
+      "location": {
+        "projectId": "project1-15",
+        "projectName": "西班牙-马德里储能站",
+        "bankId": "Bank03"
+      },
+      "currentValue": 72,
+      "threshold": 75,
+      "timestamp": "2024-10-01 07:30:00",
+      "status": "active"
+    },
+    {
+      "id": "alert-008",
+      "type": "voltage",
+      "level": "info",
+      "title": "电压波动",
+      "description": "电压波动频繁",
+      "location": {
+        "projectId": "project1-14",
+        "projectName": "法国-巴黎储能站",
+        "bankId": "Bank08"
+      },
+      "currentValue": 0.08,
+      "threshold": 0.05,
+      "timestamp": "2024-10-01 06:45:00",
+      "status": "resolved"
+    }
+  ],
+  "summary": {
+    "total": 8,
+    "critical": 3,
+    "warning": 3,
+    "info": 2,
+    "byType": {
+      "voltage": 4,
+      "temperature": 2,
+      "soc": 2,
+      "insulation": 0,
+      "communication": 0
+    }
+  }
+}
